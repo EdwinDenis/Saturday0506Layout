@@ -1,0 +1,247 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section--hero {
+    background-image: url(../assets/images/hero/hero-bg.png);
+    background-position:  center center;
+    background-size: cover;
+}
+
+.section--expert {
+    background-color: #F1F8FF;
+}
+
+/* ============== Header ================ */
+
+.header {
+    width: 100%;
+    background-color: #194277;   
+}
+
+.header__inside {
+    padding: 20px 333px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__textline {
+    font-weight: 400;
+    font-size: 14px;
+    color:#fff;
+}
+
+.header_btn {
+    width: 114px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    color: #194277; 
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* ============== Hero ================ */
+
+.section__hero {
+    width:100%;
+    height:auto;
+    position:relative;
+}
+
+.hero__inner {
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero__image {
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero__image-border_1 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border:10px solid #5397FE;
+    position: absolute;
+    top:-9px;
+    right:-9px;
+}
+
+.hero__image-border_2 {
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    border:10px solid #428CFE;
+    position: absolute;
+    top:-16px;
+    right:-16px;
+}
+
+.hero__image img{
+    border-radius: 50%;
+}
+
+.hero__title {
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.hero__text {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 205px;
+    height: 55px;
+    border-radius: 30px;
+    padding: 20px 70;
+    text-transform: uppercase;
+    color:#4094FF;
+    border:none;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fa-bars {
+    color: #fff;
+    position:absolute;
+    top:-85px;
+    right:0;
+    z-index: 1;
+}
+
+/* ============== About ================ */
+
+.about__inner {
+    max-width: 1080px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.about__title {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform:capitalize;
+    color: #4094FF;
+    text-align: center;
+}
+
+.about__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #5A5A5A;
+    margin-top: 55px;
+}
+
+.expert__block {
+    width: 100%;
+    height: 900px;
+    margin-top: 111px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.expert__card {
+    width:30%;
+    text-align: center;
+}
+
+.expert__icon {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid #BCC4CD;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expert__card--title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3677FD;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.expert__card--text {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-top: 35px;
+    color: #5A5A5A;
+}
+
+/* ============== Works ================ */
+
+.expert__block--works {
+    height: 600px;
+}
+
+.works__logos {
+    width: 100%;
+    margin-top: 75px;
+    text-align: center;
+}
+
+/* ============== Footer ================ */
+
+.footer__inner {
+    width:100%;
+    height: 244px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__textline {
+    font-size: 50px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.footer__textline span {
+    font-weight: 700;
+}
+
+.footer__btn {
+    margin-top:0;
+}
